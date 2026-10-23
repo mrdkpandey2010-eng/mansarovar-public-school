@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
-const API_BASE_URL = `${backendUrl.replace(/\/$/, '')}/api`;
+const backendUrl = (import.meta.env.VITE_BACKEND_URL || '').replace(/\/$/, '');
+const API_BASE_URL = `${backendUrl}/api`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,

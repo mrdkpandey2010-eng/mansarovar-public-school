@@ -108,7 +108,7 @@ import { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const Backend_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+const Backend_URL = (import.meta.env.VITE_BACKEND_URL || '').replace(/\/$/, '');
 
 const AuthContext = createContext();
 
@@ -124,6 +124,9 @@ const retryRequest = async (fn, retries = 3, delay = 1000) => {
       return await fn();
     } catch (error) {
       lastError = error;
+      if (error.response && (error.response.status === 400 || error.response.status === 401 || error.response.status === 403)) {
+        throw error;
+      }
       if (i < retries - 1) {
         await new Promise((res) => setTimeout(res, delay)); // wait before retry
       }
@@ -181,12 +184,13 @@ export const AuthProvider = ({ children }) => {
       );
       if (res.data.success) {
         setCurrentUser(res.data.user);
-        toast.success(`Welcome back, ${res.data.user.name}!`);
+        toast.success(`नमस्ते, ${res.data.user.name || 'उपयोगकर्ता'}!`);
       }
       return res.data;
     } catch (error) {
-      toast.error('Server error. Please try again later.');
-      throw error;
+      const msg = error.response?.data?.message || 'अमान्य क्रेडेंशियल्स या सर्वर त्रुटि। कृपया पुनः प्रयास करें।';
+      toast.error(msg);
+      throw new Error(msg);
     }
   };
 
@@ -246,4 +250,3 @@ export const AuthProvider = ({ children }) => {
 };
 
 export default AuthContext;
-1

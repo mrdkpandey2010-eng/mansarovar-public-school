@@ -1,0 +1,8 @@
+name = "mansarovar-public-school"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kd-school-db"
+database_id = "87deff75-2d2d-4799-8529-1200ea592c4d"
