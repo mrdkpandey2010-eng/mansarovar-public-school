@@ -4,7 +4,7 @@
     {
       "year": "1995",
       "title": "Foundation",
-      "description": "Mansarovar Public School was founded by educational visionary Mr. Rakesh Sharma with just 120 students and 15 teachers in a small rented building.",
+      "description": "K.D. Public School was founded by educational visionary Mr. Rakesh Sharma with just 120 students and 15 teachers in a small rented building.",
       "image": "/src/assets/images/history/founding.jpg",
       "imageAlt": "School Founding",
       "layout": "right" 
@@ -20,7 +20,7 @@
     {
       "year": "2005",
       "title": "CBSE Affiliation",
-      "description": "Mansarovar Public School received CBSE affiliation, marking a significant milestone in its academic journey. The first batch of Class 10 students graduated with excellent results.",
+      "description": "K.D. Public School received CBSE affiliation, marking a significant milestone in its academic journey. The first batch of Class 10 students graduated with excellent results.",
       "image": "/src/assets/images/history/affiliation.jpg",
       "imageAlt": "CBSE Affiliation",
       "layout": "right" 
@@ -44,7 +44,7 @@
     {
       "year": "Present Day",
       "title": "Forward Looking",
-      "description": "Today, Mansarovar Public School stands as a premier educational institution with over 1,500 students and 100 staff members, continuously evolving to meet future challenges.",
+      "description": "Today, K.D. Public School stands as a premier educational institution with over 1,500 students and 100 staff members, continuously evolving to meet future challenges.",
       "image": "/src/assets/images/history/present-day.jpg",
       "imageAlt": "School Present Day",
       "layout": "left" 

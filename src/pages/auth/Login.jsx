@@ -88,13 +88,14 @@ const Login = () => {
             <Link to="/">
               <img 
                 src={logo}
-                alt="Mansarovar Public School" 
-                className="mx-auto h-16 w-auto rounded-md"
+                alt="K.D. Public School" 
+                className="mx-auto h-20 w-auto object-contain"
               />
             </Link>
-            <h2 className="mt-6 text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
+            <h2 className="mt-4 text-2xl font-extrabold text-gray-900">K.D. PUBLIC SCHOOL</h2>
+            <p className="text-xs text-red-700 font-semibold">रामलक्षण, देवरिया (उ.प्र.) • U-DISE: 09604113374</p>
             <p className="mt-2 text-sm text-gray-600">
-              Access the School Portal
+              विद्यालय प्रबंधन पोर्टल में प्रवेश करें
             </p>
           </div>
         

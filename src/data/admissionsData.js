@@ -84,62 +84,45 @@ export const feesData = {
   academic: [
     {
       class: "Nursery – KG",
-      annualFee: "₹25,000",
-      admissionFee: "₹5,000",
-      quarterlyPayment: "₹6,250"
+      annualFee: "₹6,000",
+      admissionFee: "₹1,000",
+      quarterlyPayment: "₹1,500 (₹500/माह)"
     },
     {
-      class: "Class 1-5",
-      annualFee: "₹35,000",
-      admissionFee: "₹7,500",
-      quarterlyPayment: "₹8,750"
+      class: "Class 1-5 (Primary)",
+      annualFee: "₹8,400",
+      admissionFee: "₹1,500",
+      quarterlyPayment: "₹2,100 (₹700/माह)"
     },
     {
-      class: "Class 6-8",
-      annualFee: "₹40,000",
-      admissionFee: "₹10,000",
-      quarterlyPayment: "₹10,000"
-    },
-    {
-      class: "Class 9-10",
-      annualFee: "₹45,000",
-      admissionFee: "₹12,000",
-      quarterlyPayment: "₹11,250"
+      class: "Class 6-8 (Junior)",
+      annualFee: "₹10,800",
+      admissionFee: "₹2,000",
+      quarterlyPayment: "₹2,700 (₹900/माह)"
     }
   ],
   transport: [
     {
-      distance: "Up to 5 km",
-      annualFee: "₹12,000",
-      quarterlyPayment: "₹3,000"
+      distance: "0 - 3 km (रामलक्षण क्षेत्र)",
+      annualFee: "₹3,600",
+      quarterlyPayment: "₹900 (₹300/माह)"
     },
     {
-      distance: "5-10 km",
-      annualFee: "₹15,000",
-      quarterlyPayment: "₹3,750"
+      distance: "3 - 7 km (आसपास के क्षेत्र)",
+      annualFee: "₹6,000",
+      quarterlyPayment: "₹1,500 (₹500/माह)"
     },
     {
-      distance: "Above 10 km",
-      annualFee: "₹18,000",
-      quarterlyPayment: "₹4,500"
+      distance: "7+ km (विस्तारित रूट)",
+      annualFee: "₹8,400",
+      quarterlyPayment: "₹2,100 (₹700/माह)"
     }
   ],
-  hostel: [
-    {
-      type: "Shared Room (4 students)",
-      annualFee: "₹70,000",
-      securityDeposit: "₹10,000"
-    },
-    {
-      type: "Shared Room (2 students)",
-      annualFee: "₹90,000",
-      securityDeposit: "₹15,000"
-    },
-    {
-      type: "Single Room",
-      annualFee: "₹120,000",
-      securityDeposit: "₹20,000"
-    }
+  features: [
+    "किफायती एवं पारदर्शी शुल्क संरचना",
+    "मासिक एवं त्रैमासिक किस्तों में शुल्क भुगतान की सुविधा",
+    "मेधावी एवं जरूरतमंद छात्रों के लिए विशेष रियायत",
+    "प्रगति रिपोर्ट कार्ड (Progress Report) एवं संपूर्ण व्यक्तित्व मूल्यांकन"
   ]
 };
 

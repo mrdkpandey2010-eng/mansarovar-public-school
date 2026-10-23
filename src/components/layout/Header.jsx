@@ -31,43 +31,39 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       {/* Top Bar with contact info */}
-      <div className="bg-blue-900 text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
-          <div className="flex flex-wrap items-center">
-            <div className="flex items-center mr-6">
-              <svg className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="bg-red-800 text-white py-1.5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center text-xs">
+          <div className="flex flex-wrap items-center space-x-4">
+            <span className="bg-red-900 px-2 py-0.5 rounded font-medium">U-DISE: 09604113374</span>
+            <span className="hidden sm:inline">📍 रामलक्षण, देवरिया (उ.प्र.)</span>
+            <div className="flex items-center">
+              <svg className="h-3.5 w-3.5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span className="text-xs">+91 11 2345 6789</span>
-            </div>
-            <div className="flex items-center">
-              <svg className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              <span className="text-xs">info@manosarovarschool.edu.in</span>
+              <span>+91 9935155645, 9450156081</span>
             </div>
           </div>
-          <div className="flex items-center mt-2 sm:mt-0">
+          <div className="flex items-center mt-1 sm:mt-0">
             {currentUser ? (
               <div className="flex items-center">
                 <span className="text-xs mr-2">Welcome, {currentUser.name}</span>
                 <button
                   onClick={handleLogout}
-                  className="text-xs bg-red-700 hover:bg-red-800 py-1 px-2 rounded"
+                  className="text-xs bg-red-950 hover:bg-black py-1 px-2 rounded"
                 >
                   Logout
                 </button>
                 <Link 
                   to={`/portal/${currentUser.role.toLowerCase()}`} 
-                  className="ml-2 text-xs bg-blue-700 hover:bg-blue-800 py-1 px-2 rounded"
+                  className="ml-2 text-xs bg-red-700 hover:bg-red-800 py-1 px-2 rounded"
                 >
                   Dashboard
                 </Link>
               </div>
             ) : (
               <div>
-                <Link to="/auth/login" className="text-xs hover:text-blue-200 mr-4">
-                  Login
+                <Link to="/auth/login" className="text-xs bg-white text-red-900 font-semibold px-2.5 py-1 rounded hover:bg-gray-100 transition">
+                  लॉगिन करें (Login)
                 </Link>
               </div>
             )}
@@ -77,18 +73,19 @@ const Header = () => {
       
       {/* Main Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-3">
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
                 src={logo}
-                alt="Mansarovar Public School" 
-                className="h-12 w-auto rounded-xl"
+                alt="K.D. Public School Logo" 
+                className="h-14 w-auto object-contain drop-shadow"
               />
               <div className="ml-3">
-                <div className="text-lg font-bold text-blue-900">Mansarovar</div>
-                <div className="text-sm text-blue-700">Public School</div>
+                <div className="text-xl font-extrabold text-red-800 tracking-tight leading-tight">K.D. PUBLIC SCHOOL</div>
+                <div className="text-xs text-gray-600 font-medium">रामलक्षण, देवरिया (उ.प्र.) | Ramlakshan, Deoria</div>
+                <div className="text-[10px] text-red-600 italic">विद्यायाऽमृतमश्नुते • Strive to Excel</div>
               </div>
             </Link>
           </div>

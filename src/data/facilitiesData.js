@@ -128,7 +128,7 @@ export const testimonialsData = [
     id: 1,
     name: "Rajesh Sharma",
     role: "Parent",
-    quote: "The facilities at Mansarovar Public School are truly impressive. The science laboratories and smart classrooms have greatly enhanced my child's learning experience.",
+    quote: "The facilities at K.D. Public School are truly impressive. The science laboratories and smart classrooms have greatly enhanced my child's learning experience.",
     image: "/src/assets/images/testimonials/parent1.jpg",
     rating:["★","★","★","★"]
   },
@@ -143,7 +143,7 @@ export const testimonialsData = [
     id: 3,
     name: "Dr. Anand Verma",
     role: "Education Expert",
-    quote: "Mansarovar Public School sets a high standard with its world-class infrastructure. The integration of technology in classrooms prepares students for the future.",
+    quote: "K.D. Public School sets a high standard with its world-class infrastructure. The integration of technology in classrooms prepares students for the future.",
     image: "/src/assets/images/testimonials/expert1.jpg"
   }
 ];

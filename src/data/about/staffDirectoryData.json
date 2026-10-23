@@ -1,16 +1,16 @@
 {
   "title": "Our Staff",
-  "description": "Meet the dedicated team of educators and administrators who make Mansarovar Public School a center of excellence. Our staff brings experience, passion, and expertise to guide students on their educational journey.",
+  "description": "Meet the dedicated team of educators and administrators who make K.D. Public School (Ramlakshan, Deoria) a center of excellence. Our staff brings experience, passion, and expertise to guide students on their educational journey.",
   "loadingMessage": "Loading staff information...",
   "staff": [
     {
       "_id": "1",
-      "name": "Dr. Anand Sharma",
-      "position": "Principal",
-      "qualification": "Ph.D., M.Ed.",
-      "experience": "25 years",
+      "name": "श्याम नारायण विश्वकर्मा (Shyam Narayan Vishwakarma)",
+      "position": "प्रधानाचार्य (Principal)",
+      "qualification": "M.A., B.Ed.",
+      "experience": "20+ years",
       "image": "/src/assets/images/staff/principal.jpg",
-      "bio": "Dr. Sharma has been leading Mansarovar Public School for 10 years with a vision to provide quality education and holistic development to all students."
+      "bio": "श्री श्याम नारायण विश्वकर्मा के.डी. पब्लिक स्कूल के कुशल नेतृत्व और मार्गदर्शन में छात्रों के सर्वांगीण विकास और गुणवत्तापूर्ण शिक्षा के लिए समर्पित हैं।"
     },
     {
       "_id": "2",

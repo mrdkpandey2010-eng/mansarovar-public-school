@@ -6,9 +6,9 @@ const academicsData = {
   curriculum: {
     title: "Our Curriculum",
     description: [
-      "At Mansarovar Public School, we follow the Central Board of Secondary Education (CBSE) curriculum, which is designed to provide a balanced education focusing on academic excellence, physical development, and character formation.",
-      "Our curriculum emphasizes experiential learning, critical thinking, and creativity. We ensure that students not only gain knowledge but also develop skills that will help them succeed in their future endeavors.",
-      "Regular assessments, both formative and summative, help us monitor student progress and provide timely feedback to improve learning outcomes."
+      "At K.D. Public School (Ramlakshan, Deoria, U.P. – U-DISE: 09604113374), our curriculum is designed to provide balanced education focusing on academic excellence, physical fitness, moral values, and personality development.",
+      "Our curriculum emphasizes strong foundational literacy, scientific inquiry, practical mathematics, and cultural awareness. We ensure that students not only gain knowledge but also develop discipline and confidence.",
+      "Regular Half-Yearly and Annual examinations along with comprehensive Personality Evaluation (Regularity, Discipline, Conduct, Extra-Curriculars) help us monitor student progress effectively."
     ],
     image: "/src/assets/images/academics/curriculum.jpg",
     imageAlt: "Students in classroom"
@@ -117,60 +117,58 @@ const academicsData = {
   },
   teachingMethodology: {
     title: "Our Teaching Methodology",
-    description: "At Mansarovar Public School, we believe in a student-centered approach to education. Our teaching methodologies combine traditional classroom learning with modern interactive techniques.",
+    description: "At K.D. Public School, we believe in a student-centered approach to education. Guided by 'प्रयास • परिश्रम • परिणाम', our teaching methodologies combine structured classroom learning with activity-based understanding.",
     methods: [
       {
         title: "Interactive Learning",
-        description: "Group discussions, debates, and peer teaching to encourage active participation."
+        description: "Group discussions, question-answer sessions, and peer learning to encourage active participation."
       },
       {
-        title: "Project-Based Learning",
-        description: "Hands-on projects that connect theoretical knowledge with real-world applications."
+        title: "Activity-Based Learning",
+        description: "Hands-on drawing, experiments, and exercises that connect book knowledge with practical understanding."
       },
       {
-        title: "Technology Integration",
-        description: "Smart classrooms and digital resources to enhance learning experiences."
+        title: "Discipline & Moral Ethics",
+        description: "Inculcating cleanliness, respect, responsibility, and cheerfulness in daily routines."
       },
       {
         title: "Personalized Attention",
-        description: "Maintaining optimal teacher-student ratio to ensure individual attention."
+        description: "Maintaining an optimal teacher-student ratio to ensure individual attention for every child."
       }
     ],
     image: "/src/assets/images/academics/teaching.jpg",
     imageAlt: "Teacher with students"
   },
   assessment: {
-    title: "Assessment System",
-    description: "Our comprehensive assessment system is designed to evaluate students' academic progress, identify areas for improvement, and provide constructive feedback.",
+    title: "Assessment & Progress Report System",
+    description: "Our comprehensive examination and evaluation system is designed to measure academic excellence and holistic personality growth through our official Progress Report system.",
     types: [
       {
-        title: "Formative Assessment",
-        description: "Continuous evaluation throughout the academic year to monitor progress and provide timely feedback.",
+        title: "Half-Yearly Examination",
+        description: "Mid-term evaluation covering oral and written assessments across all key subjects.",
         methods: [
-          "Class participation and discussions",
-          "Homework and assignments",
-          "Quizzes and unit tests",
-          "Projects and practical work",
-          "Oral assessments"
+          "Max. Marks: 100 per subject",
+          "Written and Oral Examinations",
+          "Continuous class tests and quizzes",
+          "Homework and notebook cleanliness"
         ]
       },
       {
-        title: "Summative Assessment",
-        description: "Comprehensive evaluation at the end of each term to assess overall understanding and achievement.",
+        title: "Annual Examination & Yearly Achievement",
+        description: "Year-end comprehensive assessment combining Half-Yearly (100) + Annual (100) = Yearly Achievement (200 Marks per subject).",
         methods: [
-          "Mid-term examinations",
-          "Term-end examinations",
-          "Annual examinations",
-          "Pre-board examinations (for Classes 9-10)",
-          "CBSE Board Examinations (Class 10)"
+          "Grand Total: 1600 Marks (across 8 major subjects)",
+          "Final Annual percentage and merit ranking",
+          "Promotion evaluation (Pass / Promoted / Detained)"
         ]
       }
     ],
     reportCards: {
-      title: "Report Cards and Parent-Teacher Meetings",
+      title: "Official Progress Report & Personality Evaluation",
       description: [
-        "Report cards are issued at the end of each term, providing detailed feedback on academic performance and areas for improvement. Regular parent-teacher meetings are scheduled to discuss student progress and address any concerns.",
-        "Our assessment system follows the guidelines set by CBSE, emphasizing a balance between scholastic and co-scholastic areas to ensure holistic evaluation of students."
+        "Our official K.D. Public School Progress Report Card evaluates both scholastic subjects (Hindi, English, Maths, Science/E.V.S., Social Study, G.K., Drawing, Physical) and co-scholastic character building.",
+        "Grading Scale: A+ (Excellent) | A (Very Good) | B+ (Good) | B (Nice) | C+ (Needs Improvement) | D (Poor)",
+        "Personality Evaluation parameters: Regularity & Punctuality, Discipline, Conduct, Responsibility, Cheerfulness, Cleanliness, and Participation in Extra Curricular Activities."
       ]
     }
   },

@@ -10,8 +10,8 @@ const CallToAction = () => {
             Experience Our Facilities In Person
           </h2>
           <p className="text-lg md:text-xl opacity-90 mb-8">
-            We invite you to visit our campus to see our exceptional facilities firsthand. 
-            Schedule a tour today and discover the Mansarovar difference.
+            We invite you to visit our campus in Ramlakshan, Deoria to see our school facilities firsthand. 
+            Schedule a visit today and discover what makes K.D. Public School special.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link 

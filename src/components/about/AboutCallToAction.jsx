@@ -7,7 +7,7 @@ const AboutCallToAction = () => {
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Join Our Community</h2>
         <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-          Become a part of Mansarovar Public School and give your child the gift of quality education in a nurturing environment.
+          Become a part of K.D. Public School (Ramlakshan, Deoria) and give your child the gift of quality education in a nurturing environment.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link 

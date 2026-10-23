@@ -60,14 +60,14 @@ export const testimonials = [
     id: 1,
     name: 'Rahul Kumar',
     role: 'Parent',
-    text: 'My child has shown remarkable improvement since joining Mansarovar Public School. The teachers are dedicated and the facilities are excellent.',
+    text: 'My child has shown remarkable improvement since joining K.D. Public School. The teachers are dedicated and the facilities are excellent.',
     image: '/src/assets/images/testimonials/parent1.jpg'
   },
   {
     id: 2,
     name: 'Priya Sharma',
     role: 'Former Student',
-    text: 'The values and education I received at Mansarovar have shaped my career and personality. I\'m proud to be an alumnus of this prestigious institution.',
+    text: 'The values and education I received at K.D. Public School have shaped my career and personality. I\'m proud to be an alumnus of this prestigious institution.',
     image: '/src/assets/images/testimonials/student1.jpg'
   },
   {

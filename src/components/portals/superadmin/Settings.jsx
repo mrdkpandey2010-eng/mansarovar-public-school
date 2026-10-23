@@ -22,15 +22,15 @@ const Settings = () => {
               <label className="block text-sm font-medium text-gray-700">School Name</label>
               <input
                 type="text"
-                defaultValue="Mansarovar Public School"
+                defaultValue="K.D. Public School"
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700">School Code</label>
+              <label className="block text-sm font-medium text-gray-700">U-DISE Code / School Code</label>
               <input
                 type="text"
-                defaultValue="MNS2024"
+                defaultValue="09604113374"
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               />
             </div>

@@ -7,18 +7,26 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* School Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Mansarovar Public School</h3>
-            <p className="text-sm text-gray-300 mb-2">123 Education Street</p>
-            <p className="text-sm text-gray-300 mb-2">New Delhi - 110001</p>
-            <p className="text-sm text-gray-300 mb-2">India</p>
-            <div className="mt-4">
-              <p className="text-sm text-gray-300 mb-1">
-                <span className="font-medium">Phone:</span> +91 11 2345 6789
+            <h3 className="text-xl font-bold mb-3 text-red-300">K.D. Public School</h3>
+            <p className="text-xs bg-red-800 text-white font-semibold inline-block px-2 py-0.5 rounded mb-3">
+              U-DISE: 09604113374
+            </p>
+            <p className="text-sm text-gray-300 mb-1 font-medium">रामलक्षण, देवरिया (उ.प्र.)</p>
+            <p className="text-sm text-gray-300 mb-2">Ramlakshan, Deoria, Uttar Pradesh - 274201</p>
+            <div className="mt-3 space-y-1">
+              <p className="text-sm text-gray-300">
+                <span className="font-semibold text-white">प्रधानाचार्य:</span> श्याम नारायण विश्वकर्मा
               </p>
               <p className="text-sm text-gray-300">
-                <span className="font-medium">Email:</span> info@manosarovarschool.edu.in
+                <span className="font-semibold text-white">संपर्क:</span> +91 9935155645, 9450156081
+              </p>
+              <p className="text-sm text-gray-300">
+                <span className="font-semibold text-white">ईमेल:</span> kdpublicschool.deoria@gmail.com
               </p>
             </div>
+            <p className="mt-3 text-xs italic text-yellow-300">
+              विद्यायाऽमृतमश्नुते • Strive to Excel • प्रयास • परिश्रम • परिणाम
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -140,7 +148,7 @@ const Footer = () => {
             </Link>
           </div>
           <p className="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">
-            &copy; {new Date().getFullYear()} Mansarovar Public School. All rights reserved.
+            &copy; {new Date().getFullYear()} K.D. Public School, Ramlakshan, Deoria. All rights reserved.
           </p>
         </div>
       </div>
