@@ -10,7 +10,6 @@ import EventsPreview from '../components/home/EventsPreview';
 import GalleryPreview from '../components/home/GalleryPreview';
 import Testimonials from '../components/home/Testimonials';
 import CallToAction from '../components/home/CallToAction';
-import MeetTheTeamDialog from '../components/home/MeetTheTeamDialog';
 
 // Import fallback data
 import { 
@@ -25,7 +24,6 @@ const Home = () => {
   const [events, setEvents] = useState([]);
   const [galleryImages, setGalleryImages] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [showTeamDialog, setShowTeamDialog] = useState(false);
 
   useEffect(() => {
     const fetchHomeData = async () => {
@@ -53,13 +51,6 @@ const Home = () => {
     };
 
     fetchHomeData();
-
-    // Show team dialog after 2 seconds of page load
-    const teamDialogTimer = setTimeout(() => {
-      setShowTeamDialog(true);
-    }, 2000);
-
-    return () => clearTimeout(teamDialogTimer);
   }, []);
 
   return (
@@ -73,12 +64,6 @@ const Home = () => {
       <GalleryPreview galleryImages={galleryImages} loading={loading} />
       <Testimonials />
       <CallToAction />
-      
-      {/* Meet the Team Dialog */}
-      <MeetTheTeamDialog 
-        isOpen={showTeamDialog} 
-        onClose={() => setShowTeamDialog(false)} 
-      />
     </div>
   );
 };
